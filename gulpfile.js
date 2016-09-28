@@ -12,7 +12,7 @@ var options = {},
 
 // The subTheme that gulp compiles Sass from.
 // Change this to your custom sub-subTheme.
-var compiledTheme = '/app/profiles/agov/themes/agov/agov_whitlam/';
+var compiledTheme = '/app/profiles/agov/themes/contrib/agov_whitlam/';
 
 // The root paths are used to construct all the other paths in this
 // configuration. The "project" root path is where this gulpfile.js is located.
@@ -22,7 +22,7 @@ var compiledTheme = '/app/profiles/agov/themes/agov/agov_whitlam/';
 options.rootPath = {
   project     : __dirname + '/',
   web         : __dirname + '/app/',
-  baseTheme   : __dirname + '/app/profiles/agov/themes/agov/agov_base/',
+  baseTheme   : __dirname + '/app/profiles/agov/themes/contrib/agov_base/',
   styleGuide  : __dirname + '/app/styleguide/',
   subTheme    : __dirname + compiledTheme
 };
